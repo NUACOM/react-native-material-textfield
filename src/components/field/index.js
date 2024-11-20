@@ -423,7 +423,7 @@ export default class TextField extends PureComponent {
     let { height: computedHeight } = this.state;
     let { multiline, fontSize, height = computedHeight } = this.props;
 
-    return multiline ? height : fontSize * 1.5;
+    return multiline ? height : fontSize * 1.2;
   }
 
   inputContainerHeight() {
